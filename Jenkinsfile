@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build (CI)') {
             steps {
-                 git url: 'https://github.com/yanivcert/php-docs-hello-world.git'              
+                 git poll: true, url: 'https://github.com/yanivcert/php-docs-hello-world.git'            
             }
         }
         stage('Deploy to Azure (CD)') {
