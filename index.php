@@ -1,4 +1,4 @@
 <?php
 
-echo "Hello Sela Team!";
+echo "Hello World!";
 ?>
